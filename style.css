@@ -1,0 +1,157 @@
+@font-face {
+  font-family: gilroy;
+  src: url("assets/gilroy.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  /* background-color: #d0d4d5; */
+  position: relative;
+}
+
+#main a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav {
+  height: 70px;
+  padding: 0 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav img {
+  height: 50px;
+  margin-right: 150px;
+}
+
+#nav-prt1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-prt1 h4 {
+  margin-right: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#nav-prt2 i {
+  font-size: 18px;
+  margin-right: 60px;
+}
+
+#content {
+  width: 100%;
+  height: calc(100% - 70px);
+  position: relative;
+  display: flex;
+}
+
+#left {
+  width: 40%;
+  height: 100%;
+  padding: 120px 95px;
+}
+
+#left h5 {
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #535353;
+}
+
+#left h1 {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+#left p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#left button {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border: none;
+}
+
+#right {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+#right::-webkit-scrollbar {
+  display: none;
+}
+
+.elem {
+  height: 450px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 100px 10px;
+}
+
+.elem img {
+  height: 90%;
+  width: 100%;
+  top: -10%;
+  object-fit: contain;
+  position: absolute;
+}
+
+.elem h4 {
+  position: absolute;
+  left: 10%;
+  bottom: 20px;
+  background-color: #d0d4d5;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.elem h5 {
+  position: absolute;
+  left: 10%;
+  bottom: 70px;
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+
+
